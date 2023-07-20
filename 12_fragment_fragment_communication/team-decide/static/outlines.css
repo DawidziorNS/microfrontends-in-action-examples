@@ -1,0 +1,66 @@
+html {
+  outline: 3px solid #bc3630;
+  outline-offset: -10px;
+  position: relative;
+}
+
+html::after {
+  content: "Zespół Decyzji";
+  display: block;
+  background-color: #bc3630;
+  color: white;
+  position: absolute;
+  padding: 2px 5px;
+  bottom: 10px;
+  left: 7px;
+}
+
+inspire-recommendations {
+  position: relative;
+  outline: 3px solid #7c9b2f;
+}
+
+inspire-recommendations::before {
+  content: "Zespół Inspiracji";
+  display: block;
+  background-color: #7c9b2f;
+  color: white;
+  position: absolute;
+  padding: 2px 5px;
+  bottom: -30px;
+  right: -3px;
+}
+
+checkout-buy,
+checkout-minicart {
+  position: relative;
+  outline: 3px solid #5f9dc8;
+}
+
+checkout-buy {
+  outline-offset: 5px;
+}
+
+checkout-buy::before,
+checkout-minicart::before {
+  display: block;
+  background-color: #5f9dc8;
+  color: white;
+  position: absolute;
+  padding: 2px 5px;
+}
+
+checkout-minicart::before {
+  content: "Zespół Zakupów (zmiana po emisji zdarzenia)";
+}
+
+checkout-buy::before {
+  content: "Zespół Zakupów (emisja)";
+  bottom: -34px;
+  right: -8px;
+}
+
+checkout-minicart::before {
+  bottom: -30px;
+  right: -3px;
+}

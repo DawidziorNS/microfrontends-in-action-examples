@@ -1,0 +1,1 @@
+console.log("Pozdrowienia od Zespołu Inspiracji!")
